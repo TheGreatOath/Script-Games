@@ -1,4 +1,3 @@
--- I am desperate
 pcall(function()
     local inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGreatOath/Utilities/refs/heads/main/Inviter.lua"))()
     inviter.Join("https://discord.gg/97aFp97Hfr")
