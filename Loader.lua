@@ -4,8 +4,7 @@ pcall(function()
 end)
 
 local games = {
-    [{14067600077}] = print("Sybau")
-    [{17574618959}] = "https://raw.githubusercontent.com/TheGreatOath/Worm/refs/heads/main/loader.lua",
+    [{17574618959}] = "https://raw.githubusercontent.com/TheGreatOath/Script-Games/refs/heads/main/Type%20Soul/Script.lua",
 }
 
 for ids, url in next, games do
