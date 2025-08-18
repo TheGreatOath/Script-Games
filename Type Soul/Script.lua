@@ -36,9 +36,9 @@ getgenv().Key = "Password"
 getgenv().KeyInput = "string"
 
 local Input = Tabs.Main:AddInput("Input", {
-        Title = "Type Key",
+        Title = "Enter key",
         Default = "",
-        Placeholder = "Placeholder",
+        Placeholder = "...",
         Numeric = false,
         Finished = true,
         Callback = function(txt)
@@ -49,8 +49,8 @@ local Input = Tabs.Main:AddInput("Input", {
 
 
     Tabs.Main:AddButton({
-        Title = "Check Key",
-        Description = "Checks The Key",
+        Title = "Check key",
+        Description = "",
         Callback = function()
             Window:Dialog({
                 Title = "Title",
