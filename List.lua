@@ -1,6 +1,6 @@
 -- I am desperate
 pcall(function()
-    local inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+    local inviter = loadstring(game:HttpGet("https://raw.githubusercontent.com/TheGreatOath/Utilities/refs/heads/main/Inviter.lua"))()
     inviter.Join("https://discord.gg/97aFp97Hfr")
 end)
 
