@@ -3,6 +3,6 @@ local GAME_SCRIPTS = {
 }
 
 if not GAME_SCRIPTS[game.placeId] then
-    Players.LocalPlayer:Kick("Scylla doesn't support this game | Join our discord for more information")
+    Players.LocalPlayer:Kick("Worm doesn't support this game | Join our discord for more information")
     return
 end
