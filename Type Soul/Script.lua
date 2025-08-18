@@ -12,7 +12,6 @@ local Window = Worm:CreateWindow({
     MinimizeKey = Enum.KeyCode.LeftControl
 })
 
---https://lucide.dev/icons/
 local Tabs = {
     Main = Window:AddTab({ Title = "Main", Icon = "home" }),
     Player = Window:AddTab({ Title = "Player", Icon = "user" }),
@@ -24,18 +23,7 @@ local Tabs = {
 local Options = Worm.Options
 
 do
-    local Section = Tabs.Main:AddSection("Section", "apple") -- Create section with icon
-
-
-  
-    Worm:Notify({
-        Title = "Notification",
-        Content = "This is a notification",
-        SubContent = "SubContent", -- Optional
-        Duration = 5 -- Set to nil to make the notification not disappear
-    })
-
-
+    local Section = Tabs.Main:AddSection("Section", "apple")
 
     Tabs.Main:AddParagraph({
         Title = "Paragraph",
@@ -237,13 +225,6 @@ SaveManager:SetFolder("WormScriptHub/specific-game")
 InterfaceManager:BuildInterfaceSection(Tabs.Settings)
 SaveManager:BuildConfigSection(Tabs.Settings)
 
-
 Window:SelectTab(1)
-
-Worm:Notify({
-    Title = "Worm",
-    Content = "The script has been loaded.",
-    Duration = 8
-})
 
 SaveManager:LoadAutoloadConfig()
