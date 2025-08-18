@@ -28,7 +28,7 @@ do
 
 Worm:Notify({
         Title = "Logged In!",
-        Content = "Successfully Loaded Pls Enter The Key"..Player.Name..".",
+        Content = "Successfully Loaded Pls Enter The Key",
         Duration = 2
     })
 
